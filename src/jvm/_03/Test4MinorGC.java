@@ -21,6 +21,6 @@ public class Test4MinorGC {
         allocation3 = new byte[2 * _1MB];
         allocation4 = new byte[5 * _1MB];
 
-        //while (true){}
+         while (true){}
     }
 }
