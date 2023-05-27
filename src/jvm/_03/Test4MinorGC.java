@@ -1,8 +1,8 @@
 package jvm._03;
 
 /**
- * VM options:-XX:+PrintCommandLineFlags -XX:+UseSerialGC
- * -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8
+ * VM options:-XX:+PrintCommandLineFlags
+ * -XX:+UseSerialGC -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8
  */
 public class Test4MinorGC {
     private static final int _1MB = 1024 * 1024;
