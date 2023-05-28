@@ -21,6 +21,7 @@ public class TestOOMObject {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        fillHeap(100);
+        fillHeap(1000);
+        while (true){}
     }
 }
