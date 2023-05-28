@@ -10,6 +10,7 @@ public class JHSDB_TestCase {
         void foo(){
             ObjectHolder localObj=new ObjectHolder();
             System.out.println("done"); //这里设一个断点
+            while (true){}
         }
     }
     private static class ObjectHolder{}
@@ -17,6 +18,6 @@ public class JHSDB_TestCase {
     public static void main(String[] args) {
         Test test=new JHSDB_TestCase.Test();
         test.foo();
-        while (true){}
     }
 }
+
